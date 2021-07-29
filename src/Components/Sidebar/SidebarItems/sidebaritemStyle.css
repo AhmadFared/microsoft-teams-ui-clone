@@ -1,0 +1,25 @@
+.sidebar-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 0px;
+  color: #616161;
+  cursor: pointer;
+}
+.sidebar-item:hover {
+  color: #9fa2ff;
+  background-color: #1f1f1f;
+}
+.active {
+  color: #9fa2ff;
+  border-left: 4px solid #9fa2ff;
+}
+.sidebar-icon {
+  font-size: 20px;
+}
+
+.sidebar-label {
+  font-size: 9px;
+}
